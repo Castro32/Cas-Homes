@@ -1,38 +1,44 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Apple Wood Villas",
+    "price": " 6,000,000",
+    "bedrooms": "2 bedrooms",
+    "detail": "Nestled in the heart of the exclusive leafy suburbs of Karen, Applewood Villas provides an opportunity to buy into a unique development in a serene environment.",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "RiverRun Estates",
+    "price": " 7,500,000",
+    "bedrooms":"3 bedrooms",
+    "detail": "RiverRun Estates is a master-planned residence undertaken on a 100-acre parcel located in Ruiru, Kiambu County.",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "The Ridge",
+    "price": " 6,500,000",
+    "bedrooms":"4 bedrooms",
+    "detail": "The Ridge is a comprehensive and luxurious mixed-use residence located in Ridgeways, Nairobi approximately 10 km from the CBD.",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Taraji Heights",
+    "price": " 10,500,000",
+    "bedrooms":"3 bedrooms",
+    "detail": "Taraji Heights is a comprehensive mixed-use residence where style, nature, community living and convenience meet.",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "The Alma",
+    "price": " 17,500,000",
+    "bedrooms":"5 bedrooms",
+    "detail": "he Alma is a comprehensive residential houses with  & impeccable finishing.",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Situ Village",
+    "price": " 24,500,000",
+    "bedrooms":"4 bedrooms",
+    "detail": "Nestled in the scenic ravine of the Mbagathi and Ololua Ridges and with frontage to the Mbagathi River and Forest, Situ Village derives its name from this unique setup.",
     "image": "./r3.png"
   }
 ]
