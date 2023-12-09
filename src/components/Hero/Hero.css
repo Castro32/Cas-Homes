@@ -1,0 +1,136 @@
+.hero-wrapper{
+    position: relative;
+    padding-bottom: 36px;
+    background-color: black;
+    z-index: 1;
+    background-image: url(./pexels-photo-323780.jpeg);
+    background-size: cover;
+}
+.hero-container{
+    justify-content: space-between;
+    
+}
+
+.hero-left{
+    position: absolute;
+    top: 0;
+    gap: 48px;
+}
+
+.hero-title{
+    position: relative;
+    z-index: 1;
+    padding-top: 0;
+    top: 20px;
+}
+.hero-title>h1{
+    color: black;
+    top: 0;
+    font-weight: 500;
+    font-size: 3.8rem;
+    line-height: 3rem;
+}
+.hero-title>p{
+    color: white;
+    padding: 40px;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.hero-des{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    left: 10px;
+}
+.hero-right{
+    margin-left: 600px;
+    position: relative;
+    top: 10px; 
+    overflow: hidden;
+    z-index: -1;
+}
+.lawngreen-circle{
+    padding-top: 67px;
+    height: 4rem;
+    width: 4rem;
+    background: lime;
+    border-radius: 999px;
+    position: absolute;
+    right: -7%;
+    z-index: -1;
+}
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    padding: 8px 16px;
+    justify-content: space-between;
+}
+.flexenter{
+    display: flex;
+  row-gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stats{
+    color: lawngreen;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    padding: 1px;
+    bottom: 180px;
+    left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+    
+    margin: 20px;
+}
+.stat>:nth-child(1){
+    font-size: 18px;
+    margin: 20px;
+}
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+    
+}
+.image-container{
+    margin-left: auto;
+    position: relative;
+    width: 650px;
+    height: 32rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.image-container>img{
+    
+    width: 100%;
+    height: 100%;
+}
+@media  (max-width: 640px){
+    .hero-title>h1{
+        color: black;
+    }
+    .hero-title>p{
+        color: white;
+    }
+    .stats{
+        margin-left: -75px;
+        gap: 5px;
+        bottom: 100px;
+    }
+    .stats .count{
+        font-size: 17px;
+        color: aqua;
+    }
+    .stats .span{
+        font-size: 15px;
+        color: lawngreen;
+    }
+}
+    
