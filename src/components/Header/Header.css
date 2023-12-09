@@ -8,7 +8,7 @@
     padding-bottom: 16px;
     
 }
-h-menu{
+.h-menu{
     gap: 32px;
     padding: 20px;
     justify-content: space-between;
@@ -33,7 +33,7 @@ h-menu{
         top: 3rem;
         right: 4rem;
         display: flex;
-        background-color: rgba(255, 255, 255, 0.56);
+        background-color: rgba(255, 255, 255, 1.56);
         flex-direction: column;
         font-weight: 400;
         gap: 25px;

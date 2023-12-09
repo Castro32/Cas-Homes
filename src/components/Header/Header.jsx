@@ -23,13 +23,12 @@ const Header = () => {
     }
     }
     >
-    <div className="h-menu" style={{ right: menuOpened ? '0' : '-100%' }}>
-        
-        <a href="">Home</a>
-        <a href="#hero">Residencies</a>
-        <a href="">Our Values</a>
-        <button className="button">
-            <a href="">Contact Us</a>
+<div className="h-menu" style={{ right: menuOpened ? '0' : '-100%' }}>
+        <a href="Hero" style={{gap:'10px'}}>Home</a>
+        <a href="#Residencies"  style={{padding:'10px'}}>Residencies</a>
+        <a href="Values" style={{gap:'10px'}}>Our Values</a>
+        <button className="button" >
+            <a href="Contact" >Contact Us</a>
         </button>
     </div>
     </OutsideClickHandler>
