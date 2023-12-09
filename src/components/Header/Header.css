@@ -19,6 +19,11 @@
 .menu-icon{
     display: none;
 }
+@media (max-width:1024px) {
+    .h-menu{
+        padding-right: 100px;
+    }
+}
 @media(max-width:768px){
     .menu-icon{
         position: absolute;

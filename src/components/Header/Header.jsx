@@ -25,10 +25,10 @@ const Header = () => {
     >
 <div className="h-menu" style={{ right: menuOpened ? '0' : '-100%' }}>
         <a href="Hero" style={{gap:'10px'}}>Home</a>
-        <a href="#Residencies"  style={{padding:'10px'}}>Residencies</a>
-        <a href="Values" style={{gap:'10px'}}>Our Values</a>
+        <a href="#Residencies"  style={{padding:'100px'}}>Residencies</a>
+        <a href="Values" style={{gap:'10px', paddingRight:'100px'}}>Our Values</a>
         <button className="button" >
-            <a href="Contact" >Contact Us</a>
+            <a href="Contact" style={{gap:'100px'}}>Contact Us</a>
         </button>
     </div>
     </OutsideClickHandler>
