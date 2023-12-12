@@ -7,24 +7,32 @@ import Values from "./components/Values/Values";
 import Contact from "./components/Contact/Contact";
 import Started from "./components/Started/Started";
 import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
+import SignUp from "./components/SignUp/signup";
 
 
-function App() {
+
+export const App = () => {
   return (
-    <div className="App">
-      <div>
-        <div className="white-gradient"/>
-        <Header/>
-        <Hero/>
+    <Router>
+      <div className="App">
+        <div>
+          <div className="white-gradient" />
+          <Header />
+        </div>
+        <Routes>
+          <Route  exact path="/"   element={<Hero />} />
+          <Route path="/companies" element={<Companies />} />
+          <Route path="/residencies" element={<Residencies />} />
+          <Route path="/values" element={<Values />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/started" element={<Started />} />
+          <Route path="/footer" element={<Footer />} />
+          <Route path="/signup" element={<SignUp/>} />
+        </Routes>
       </div>
-      <Companies/>
-      <Residencies/>
-      <Values/>
-      <Contact/>
-      <Started/>
-      <Footer/>
-    </div>
+    </Router>
   );
-}
+};
 
-export default App;
+
