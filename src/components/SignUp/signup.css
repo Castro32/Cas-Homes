@@ -92,7 +92,7 @@
 }
 @media  (max-width: 768px) {
     .container {
-      width: 90%; /* Adjust width for smaller screens */
+      width: auto; /* Adjust width for smaller screens */
     }
   
     .header {
