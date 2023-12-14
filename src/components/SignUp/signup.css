@@ -1,11 +1,14 @@
-
+body{
+  padding: 0;
+  margin: 0;
+}
 .container{
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 600px;
     margin-top: 20px;
-    background: #fff;
+    background: black;
     padding-bottom: 20px;
 }
 
@@ -15,7 +18,7 @@
     align-items: center;
     gap: 9px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 .text{
@@ -92,7 +95,14 @@
 }
 @media  (max-width: 768px) {
     .container {
-      width: auto; /* Adjust width for smaller screens */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    margin-top: 20px;
+    background: black;
+    padding-bottom: 20px;
+      
     }
   
     .header {
