@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 import './signup.css'
 
@@ -32,7 +33,32 @@ const SignUp =()=>{
                 <div className={action==="Log-In"?"submit gray":"submit"} onClick={()=>{setAction("Sign-Up")}}>Sign-Up</div>
                 <div className={action==="Sign-Up"?"submit gray":"submit"} onClick={()=>{setAction("Log-In")}}>Log-In</div>
             </div>
+
         </div>
-    )
-}
-export default SignUp
+      </div>
+
+      {action === 'Sign-Up' ? <div></div> :
+        <div className='forgot-password'>
+          Forgot Password?<span>Click Here!</span>
+        </div>
+      }
+
+      <div className='submit-container'>
+        <div
+          className={action === 'Log-In' ? 'submit gray' : 'submit'}
+          onClick={() => { setAction('Sign-Up') }}
+        >
+          Sign-Up
+        </div>
+        <div
+          className={action === 'Sign-Up' ? 'submit gray' : 'submit'}
+          onClick={() => { setAction('Log-In') }}
+        >
+          Log-In
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SignUp;
