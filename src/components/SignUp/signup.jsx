@@ -44,7 +44,7 @@ const SignUp = () => {
 
       {action === 'Sign-Up' ? <div></div> :
         <div className='forgot-password'>
-          Forgot Password?<span>Click Here!</span>
+          Forgot Password?<span>  Click Here!</span>
         </div>
       }
 

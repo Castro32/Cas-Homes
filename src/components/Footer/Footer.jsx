@@ -4,11 +4,11 @@ import { BsInstagram,BsTwitter,BsTiktok,BsSnapchat } from 'react-icons/bs'
 const Footer=()=>{
     return(
         <section className='f-wrapper'>
-            <div className="paddings innerWidth flexCenter f-container">
+            <div className="padings inerWidth flexCnter f-container">
                 
-                <div className="flexColStart residencies">
-                    <span className='primaryText'>Residencies</span>
-                    <div className="flexColCenter f-menu">
+                <div className="flexColtart residencies">
+                    <span className='primarText'>Residencies</span>
+                    <div className="flexColCnter f-menu">
                         <span>Apple Wood Villas</span>
                         <span>RiverRun Estates</span>
                         <span>The Ridge</span>
@@ -28,7 +28,7 @@ const Footer=()=>{
                 <BsTiktok size={20}/>
             </div>
             </div>
-            <div className="container flexColCenter">
+            <div className=" flexColCenter">
                 <span className="rrrr primaryText">&copy; 2023 CasHomes&trade;</span>
             </div>
         </section>

@@ -46,8 +46,8 @@
 }
 .input img{
     margin: 0px 30px;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 .inputs input{
     height: 50px;
@@ -91,49 +91,53 @@
     color: #676767;
 }
 @media  (max-width: 768px) {
+  
     .container {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 400px;
+    height: auto;
     margin-top: 20px;
-    background: black;
+    background-color: black;
     padding-bottom: 20px;
       
     }
   
     .header {
-      margin-top: 20px; /* Adjust margin for smaller screens */
+      margin-top: 20px; 
+      object-fit: fill;
+      background: black;
     }
   
     .text {
-      font-size: 36px; /* Adjust font size for smaller screens */
+      font-size: 36px;
     }
   
     .input {
-      width: 90%; /* Adjust input width for smaller screens */
+      width: 90%; 
       margin: auto;
-      height: 70px; /* Adjust input height for smaller screens */
+      height: 70px; 
     }
   
     .input img {
-      margin: 0px 20px; /* Adjust icon margin for smaller screens */
-      width: 40px; /* Adjust icon width for smaller screens */
-      height: 40px; /* Adjust icon height for smaller screens */
+      margin: 0px 20px;
+      width: 40px; 
+      height: 40px;
     }
   
     .inputs input {
-      width: 70%; /* Adjust input width for smaller screens */
-      font-size: 16px; /* Adjust font size for smaller screens */
+      width: 70%; 
+      font-size: 16px; 
     }
   
     .forgot-password {
-      padding-left: 20px; /* Adjust padding for smaller screens */
-      margin-top: 20px; /* Adjust margin for smaller screens */
+      padding-left: 20px; 
+      margin-top: 20px; 
     }
   
     .submit-container {
-      margin: 40px auto; /* Adjust margin for smaller screens */
+      margin: 40px auto; 
     }
   
     .submit {

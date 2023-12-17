@@ -30,6 +30,12 @@ export const App = () => {
           <Route path="/footer" element={<Footer />} />
           <Route path="/signup" element={<SignUp/>} />
         </Routes>
+        <Companies/>
+        <Residencies/>
+        <Values/>
+        <Contact/>
+        <Started/>
+        <Footer/>
       </div>
     </Router>
   );
