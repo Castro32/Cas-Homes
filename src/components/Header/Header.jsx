@@ -30,7 +30,6 @@ const Header = () => {
         <a href="#Contact"  style={{padding:'1px'}}>Contact Us</a>
         <a href="Values" style={{gap:'10px', paddingRight:'10px'}}>Our Values</a>
         <button className="button" >
-            {/*<a href="Sign In" style={{gap:'100px'}}>Sign In</a>*/}
             <Link to="/signup">Sign in</Link>
         </button>
     </div>

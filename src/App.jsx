@@ -9,7 +9,7 @@ import Started from "./components/Started/Started";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
 import SignUp from "./components/SignUp/signup";
-
+import forgotpassword from "./components/forgotpassword/forgotpassword"
 
 
 export const App = () => {
@@ -19,8 +19,8 @@ export const App = () => {
         <div>
           <div className="white-gradient" />
           <Header />
-        </div>
-        <Routes>
+          </div>
+         <Routes>
           <Route  exact path="/"   element={<Hero />} />
           <Route path="/companies" element={<Companies />} />
           <Route path="/residencies" element={<Residencies />} />
@@ -29,13 +29,15 @@ export const App = () => {
           <Route path="/started" element={<Started />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/signup" element={<SignUp/>} />
-        </Routes>
-        <Companies/>
-        <Residencies/>
-        <Values/>
-        <Contact/>
-        <Started/>
-        <Footer/>
+          <Route path="/forgotpassword" element={<forgotpassword/>}/>
+         </Routes>
+         <Hero/>
+         <Companies/>
+         <Residencies/>
+         <Values/>
+         <Contact/>
+         <Started/>
+         <Footer/>
       </div>
     </Router>
   );
