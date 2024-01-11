@@ -58,31 +58,34 @@
     color: white;
     scale: 0.8;
 }
-@media (max-width:1024px){
+@media (max-width:768px){
     .c-container{
         flex-direction: column;
+        justify-content: center;
+        margin-left: -150px;
     }
     .c-container .c-left{
         padding-top: 10px;
         gap: 10px;
-        margin-left: -150px;
+       
     }
     .contactModes{
-        width: 100%;
+        width: 120%;
+        margin-left: 10px;
+        margin-right: 60px;
     }
     .mode{
-        width: 100%;
+        width: 110%;
     }
     .c-right{
         bottom: 30px;
-        justify-content: center;
-        margin-left: -380px;
+        margin-left: -130px;
         position: relative;
     }
     .c-right .image-container>img{
-       display: flex;
-       width: fit-content;
-       border: none;
+        display: flex;
+       width: 120%;
+       border: rosybrown;
     }
 
 }
