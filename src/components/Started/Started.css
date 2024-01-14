@@ -21,10 +21,13 @@
     border-radius: 7px;
 }
 @media (max-width:768px) {
+    .g-wrapper{
+        margin-left: -200px;
+    }
     .g-container{
         justify-content: center;
         width: max-content;
-        margin-left: -225px;
+        
         padding: 30px;
     }
     .g-container{
@@ -32,3 +35,5 @@
         text-align: center;
     }
 }
+
+

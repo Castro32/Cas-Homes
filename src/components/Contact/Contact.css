@@ -59,10 +59,15 @@
     scale: 0.8;
 }
 @media (max-width:768px){
+    .c-wrapper{
+        margin-right: 20px;
+    }
     .c-container{
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        margin-left: -150px;
+        margin: 50px;
+        padding-top: 5px;
+        padding-left: 60px;
     }
     .c-container .c-left{
         padding-top: 10px;
@@ -72,19 +77,19 @@
     .contactModes{
         width: 120%;
         margin-left: 10px;
-        margin-right: 60px;
+        
     }
     .mode{
         width: 110%;
     }
     .c-right{
-        bottom: 30px;
-        margin-left: -130px;
+        bottom: 10px;
+        margin-left: -250px;
         position: relative;
     }
     .c-right .image-container>img{
         display: flex;
-       width: 120%;
+       width: fit-content;
        border: rosybrown;
     }
 
