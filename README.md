@@ -1,2 +1,7 @@
 # Cas-Homes
-A real estate website made using React.js
+
+Welcome to the documentation for the Cas-Homes project.
+
+You can access the deployed app [here](https://cas-homes.netlify.app/).
+
+
