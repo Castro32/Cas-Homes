@@ -47,7 +47,7 @@ const Hero = () =>{
                 <div className="  hero-right">
                 
                     <div className="image-container">
-                        <img src="./pexels-photo-323780.jpeg" alt=""/>
+                        <img src="public\pexels-photo-323780.jpeg" alt=""/>
                     </div>
 
                     
