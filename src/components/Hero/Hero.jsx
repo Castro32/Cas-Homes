@@ -5,6 +5,7 @@ import CountUp from "react-countup";
 const Hero = () =>{
     return(
         <section className="hero-wrapper">
+            
             <div className="paddings innerWidt flexCenter hero-container ">
                 <div className="flexStat hero-left">
                     <div className=" hero-title">
@@ -47,7 +48,7 @@ const Hero = () =>{
                 <div className="  hero-right">
                 
                     <div className="image-container">
-                        <img src="public\pexels-photo-323780.jpeg" alt=""/>
+                        <img src="" alt=""/>
                     </div>
 
                     
