@@ -51,7 +51,7 @@ const Hero = () =>{
                         <img src="" alt=""/>
                     </div>
 
-                    
+
                 </div>
             </div>
         </section>
