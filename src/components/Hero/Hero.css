@@ -1,8 +1,9 @@
 .hero-wrapper{
     position: relative;
     padding-bottom: 36px;
-    background-color: black;
-    background-image: url(https://res.cloudinary.com/dnacduwvj/image/upload/e_camera,q_auto:best/v1706514896/y2_lofxy8.jpg);
+    background-image: url(Public/yyy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-container{
     justify-content: space-between;

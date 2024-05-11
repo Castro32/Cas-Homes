@@ -17,7 +17,6 @@ const Values = ()=>{
             <div className="paddings innerWidth flexCenter v-container">
                 
                 <div className="v-left">
-                    
                     <div className="image-container">
                         <img src="./value.png" alt=""/>
                     </div>

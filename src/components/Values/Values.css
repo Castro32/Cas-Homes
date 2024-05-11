@@ -1,13 +1,13 @@
 .v-container .image-container{
     border: 8px solid rgb(232, 232, 232/ 93%);
-    width: 450px ;
-    height: 38rem;
+    width: 430px ;
+    height: 30rem;
     margin-left: 70px;
     
     
 }
 .v-right{
-    width: 600px;
+    width: 480px;
     height: 40rem;
     padding-left: 90px;
     margin-top: -30px;
