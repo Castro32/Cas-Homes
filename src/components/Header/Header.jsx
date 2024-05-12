@@ -30,9 +30,7 @@ const Header = () => {
                                 <a href="#Residencies"  style={{padding:'1px'}}>Residencies</a>
                                 <a href="#Contact"  style={{padding:'1px'}}>Contact Us</a>
                                 <a href="Values" style={{gap:'10px', paddingRight:'10px'}}>Our Values</a>
-                                <button className="button" >
-                                    <Link to="/signup">Sign in</Link>
-                                </button>
+                                
                             </div>
                             </OutsideClickHandler>
                         </div>
